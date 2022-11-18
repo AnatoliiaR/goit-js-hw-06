@@ -4,12 +4,12 @@ const BtnIncEl = document.querySelector('[data-action="increment"]');
 
 let counterValue = 0;
 
-const handleBtnDecClick = function() {
+const handleBtnDecClick = () => {
     counterValue -= 1;
     valEl.textContent = counterValue;
 }
 
-const handleBtnIncClick = function() {
+const handleBtnIncClick = () => {
     counterValue += 1;
     valEl.textContent = counterValue;
 }
